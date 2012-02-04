@@ -5,8 +5,18 @@ require 'peaches'
 # Returns files found fuzzily from string
 # Usage:
 # peaches "search string"
-
-
 finder = Peaches::Finder.new
-puts finder.find(ARGV[0], Dir.pwd)
+
+if ARGV.empty?
+  while true do
+    string = gets.chomp
+    
+    results = finder.find(string, Dir.pwd)
+    puts results
+  end
+else
+  puts finder.find(ARGV[0], Dir.pwd)
+end
+
+
 
