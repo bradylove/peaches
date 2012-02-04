@@ -1,7 +1,7 @@
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require 'spec_helper'
 
 describe "Peaches" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+  it "it should have the correct version" do
+    Peaches::VERSION.should == '0.0.1'
   end
 end
