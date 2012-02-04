@@ -1,4 +1,4 @@
-= peaches
+# peaches
 
 A simple fuzzy file finder built on Ruby. This is mainly just for learning purpose, may release one day once I perfect it.
 
@@ -12,7 +12,7 @@ A simple fuzzy file finder built on Ruby. This is mainly just for learning purpo
 <!--* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.-->
 <!--* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.-->
 
-== Copyright
+## Copyright
 
 Copyright (c) 2012 Brady Love. See LICENSE.txt for
 further details.
