@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'peaches'
+
+# Returns files found fuzzily from string
+# Usage:
+# peaches "search string"
+
+
+finder = Peaches::Finder.new
+puts finder.find(ARGV[0], Dir.pwd)
+
