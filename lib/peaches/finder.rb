@@ -3,10 +3,6 @@ module Peaches
     def find(string, root)
       string = string.split(//).join(".*?")
       pattern = "/#{string}/i"
-      puts /#{string}/i
-
-      #Dir.chdir(root)
-      #results = Dir.glob(pattern, File::FNM_CASEFOLD)
 
       all_files = []
 
@@ -25,7 +21,6 @@ module Peaches
 
       results = all_files.grep /#{string}/i
 
-      puts results
       return results
     end
   end
