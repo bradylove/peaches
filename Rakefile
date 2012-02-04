@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "peaches"
   gem.homepage = "http://github.com/bradylove/peaches"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A simple fuzzy file finder written in Ruby}
+  gem.description = %Q{TODO: write a description}
   gem.email = "love.brady@gmail.com"
   gem.authors = ["Brady Love"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
