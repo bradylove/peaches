@@ -2,6 +2,8 @@
 
 A simple fuzzy file finder built on Ruby. This is mainly just for learning purpose, may release one day once I perfect it.
 
+install with ```gem install peaches``` for usage view the source for now, better documentation coming soon.
+
 <!--== Contributing to peaches-->
  
 <!--* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet-->
