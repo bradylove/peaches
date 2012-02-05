@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/bradylove/peaches"
   gem.license = "MIT"
   gem.summary = %Q{A simple fuzzy file finder written in Ruby}
-  gem.description = %Q{write a description}
+  gem.description = %Q{A simple fuzzy file finder written in Ruby}
   gem.email = "love.brady@gmail.com"
   gem.authors = ["Brady Love"]
   gem.executables = ['peaches']
