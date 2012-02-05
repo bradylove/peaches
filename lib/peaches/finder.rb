@@ -2,10 +2,14 @@ module Peaches
   class Finder
     attr_accessor :cache
 
+    # Init
+    #
+    # == Parameters
+    # root::
+    #   The root directory to cache
     def initialize(root)
       @root = root
     end
-
 
     # FuzzyFind files from the cache
     #

@@ -13,9 +13,13 @@ if ARGV.empty?
   while true do
     puts "Enter Search String: "
     string = gets.chomp
+    puts ""
+    puts "Results"
+    puts "-------------------------"
     
     results = finder.find(string)
     puts results
+    puts ""
   end
 else
   puts finder.find(ARGV[0])
